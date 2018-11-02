@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "process": "node ./src/processData.js",
-    "start": "node ./node_modules/http-server/bin/http-server ./src -p 80"
+    "start": "node ./node_modules/http-server/bin/http-server ./src"
   },
   "author": "",
   "license": "ISC",
