@@ -1,0 +1,19 @@
+{
+  "name": "gdp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "process": "node ./src/processData.js",
+    "start": "node ./node_modules/http-server/bin/http-server ./src -p 80"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "xml2js": "^0.4.19"
+  }
+}
