@@ -7,12 +7,16 @@
       <title>GDP per capita per year</title>
     </head>
     <body>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
-      <script src="buildGraph.js"></script>
-      <h1 id="graph-header"></h1>
+      <h1>Top 20 GDP per capita from 1961 to 2017</h1>
+      <h2 id="graph-header"></h2>
       <div id="graphic"></div>
       <div class="slidecontainer">
         <input type="range" min="1961" max="2017" value="1961" class="slider" id="myRange">
       </div>
+      <p>
+        <a target="_blank" href="https://data.worldbank.org/indicator/NY.GDP.PCAP.CD">Source</a>
+      </p>
     </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
+    <script src="buildGraph.js"></script>
     </html>
